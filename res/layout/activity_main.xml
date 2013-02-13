@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <androidbangladesh.BengaliEditText
+        android:id="@+id/test_edit1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:background="#80ffffff"
+        android:gravity="top|left"
+        android:inputType="textNoSuggestions|text|textMultiLine" 
+        />
+
+    <TextView
+        android:id="@+id/text_write"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="1dip"
+        android:background="@drawable/translucent_background"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</FrameLayout>
